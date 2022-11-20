@@ -1,0 +1,60 @@
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+}
+.heading{
+    text-align: center;
+    font-size: xx-large;
+    padding: 2rem 0;
+}
+.desc{
+    text-align: center;
+}
+.part1{
+    border: 1px grey solid;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+.part1 p{
+    padding: 1rem 0;
+}
+
+.part3{
+    border: 1px grey solid;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+.part2{
+    border: 1px red solid;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+
+.part2 p{
+    padding: 1rem 0;
+}
+
+.part3 p{
+    padding: 1rem 0;
+}
+
+.main button{
+    padding: 1rem 5rem;
+    border-radius: 3rem;
+    margin: 2rem 0;
+    color: orangered;
+    border-color: orangered;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.part2 button{
+    color: white;
+    background-color:red;
+}

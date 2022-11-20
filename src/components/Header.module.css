@@ -1,0 +1,26 @@
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.flexContainer div{
+  margin: 1em;
+}
+.flexContainer li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.signIn {
+  font-weight: bolder;
+}
+.signUp {
+  border: 1px red solid;
+  border-radius: 3rem;
+  padding: 0.5rem 3rem;
+  font-weight: bolder;
+  color: red;
+}

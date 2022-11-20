@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.part2 button{
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+    border: 1px red solid;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+}
+.part2 h2{
+    padding: 1rem 0;
+    font-size: xx-large;
+}
+.part2 p{
+    padding: 1rem 0;
+}
+.part2 img{
+    width: 24px;
+    
+}
+@media (max-width:900){
+    
+}

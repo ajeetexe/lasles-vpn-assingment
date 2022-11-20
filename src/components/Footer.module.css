@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+.main p {
+    padding-bottom: 1rem;
+}
+
+.main h4{
+    padding-bottom: 1rem;
+}
+
+.main img{
+    padding-bottom: 1rem;
+}

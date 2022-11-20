@@ -1,0 +1,16 @@
+.global{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.mask{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mask img{
+    padding: 1rem 3rem;
+}

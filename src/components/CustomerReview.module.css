@@ -1,0 +1,57 @@
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-top: 2rem;
+}
+.item2{
+    flex-grow: 2;
+}
+.card{
+    border: 1px grey solid;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-left: 2rem;
+    
+}
+.right{
+    color: red;
+    background-color: white;
+    border: 1px red solid;
+    font-size: x-large;
+    border-radius: 100%;
+    padding: 0.2em 0.4em;
+}
+
+.left{
+    color: white;
+    background-color: red;
+    border: 1px red solid;
+    font-size: x-large;
+    border-radius: 100%;
+    padding: 0.2em 0.4em;
+    margin-left: 1em
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+}
+
+.pagination div{
+    position: absolute;
+}
+.circle{
+    border-radius: 100%;
+    background-color: rgba(128, 128, 128, 0.748);
+    /* color: rgba(128, 128, 128, 0.748); */
+    
+}
+
+@media (max-width:900px){
+    .flexContainer{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 100%;
+    }
+}

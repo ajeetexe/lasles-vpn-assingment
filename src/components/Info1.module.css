@@ -1,0 +1,43 @@
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.img{
+    border-radius: 100%;
+    background-color: rgba(245, 106, 106, 0.5);
+    padding: 1rem;
+    margin-right: 1rem;
+}
+.part1 button{
+    padding: 1rem 5rem;
+    border-radius: 0.6rem;
+    background-color: red;
+    color: white;
+    border-color: red;
+    margin: 2rem 0;
+    font-weight: bolder;
+}
+.part1 h1{
+    font-size:xxx-large;
+    font-weight: 500;
+}
+.part1 p{
+    margin: 1rem 0;
+}
+
+.brand{
+    font-weight: bolder;
+}
+.main{
+    border-radius: 1rem;
+}
+
+@media (max-width:900px) {
+    .part1 h1{
+        font-size: xx-large;
+    }
+}
